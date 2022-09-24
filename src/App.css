@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  position: sticky;
+  top: 0;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--navprimary);
+  position: sticky;
+  top: 0;
+  height: 6rem;
+  background-color: blue;
+}
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../assets/me.png) no-repeat center right/50%;
+  height: 1000px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+  background-color: grey;
+  opacity: 0.9;
+}
+.nav h1 {
+  position: absolute;
+  font-weight: bolder;
+  font-size: 2.1rem;
+  color: var(--navtext);
+  left: 30px;
+}
+.links {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+.links li {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: gray;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 3px;
+}
+.link-text {
+  text-decoration: none;
+  color: black;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
