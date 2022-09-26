@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Header from "../component/Header";
 import me from "../assets/me.png";
 
 function Home() {

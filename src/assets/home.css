@@ -1,0 +1,15 @@
+:root {
+  --light: #e4d9ff;
+  --white: #fafaff;
+  --dark: #273469;
+  --black: #1e2025;
+  --orange: #fca311;
+}
+.home-container {
+  display: block;
+  position: fixed;
+  height: auto;
+  background: url(./assets/river-g366ef4536_1920.jpg);
+  width: 100%;
+  height: 100%;
+}
