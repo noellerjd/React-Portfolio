@@ -1,6 +1,25 @@
+:root {
+  --light: #e4d9ff;
+  --white: #fafaff;
+  --dark: #273469;
+  --black: #1e2025;
+  --orange: #fca311;
+}
 * {
   margin: 0;
   padding: 0;
+  font-family: "Dosis", sans-serif;
+}
+body {
+  background-color: var(--black);
+}
+.home-container {
+  display: block;
+  position: fixed;
+  height: auto;
+  background: url(./assets/river-g366ef4536_1920.jpg);
+  width: 100%;
+  height: 100%;
 }
 .header {
   position: sticky;
@@ -10,31 +29,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--navprimary);
   position: sticky;
   top: 0;
   height: 6rem;
-  background-color: blue;
+  background-color: var(--dark);
 }
-.home::before {
-  content: "";
+.justin-pic {
+  display: flex;
+  height: 786px;
+  width: 786px;
   position: absolute;
-  top: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
   right: 0;
-  background: url(../assets/me.png) no-repeat center right/50%;
-  height: 1000px;
-  width: 100%;
-  z-index: -1;
-  opacity: 0.8;
-  background-color: grey;
-  opacity: 0.9;
+  animation: fadeIn 1s;
+  z-index: 1;
 }
 .nav h1 {
   position: absolute;
   font-weight: bolder;
   font-size: 2.1rem;
-  color: var(--navtext);
+  color: var(--orange);
   left: 30px;
+  cursor: default;
 }
 .links {
   display: flex;
@@ -45,7 +63,6 @@
   font-family: "Dosis", sans-serif;
   font-size: 1.4rem;
   font-weight: bold;
-  background-color: gray;
   margin: 4px;
   padding: 4px;
   border-radius: 3px;
@@ -53,10 +70,125 @@
 .link-text {
   text-decoration: none;
   color: black;
+  color: var(--white);
+  transition: ease all 0.3s;
+}
+.link-text:hover {
+  color: var(--orange);
+  text-shadow: 2px 2px 2px var(--black);
 }
 .intro {
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
+  margin-top: 20%;
+}
+.intro-card {
+  background-color: #fafaffcf;
+  padding: 15px;
+  border: solid #000000;
+  border-width: 2px;
+  border-radius: 16px;
+  animation: fadeIn 3s;
+}
+.intro h1 {
+  font-size: xx-large;
+}
+.about-container {
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-card {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  margin-top: 50px;
+  color: var(--white);
+  text-align: center;
+}
+.about-card h1 {
+  display: flex;
+  justify-content: center;
+  color: var(--orange);
+  margin-bottom: 50px;
+}
+.about-text {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.about-text:last-child {
+  color: var(--orange);
+}
+/* fade in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* resize screen on mobile */
+@media screen and (max-width: 1232px) {
+  .justin-pic {
+    display: flex;
+    height: 512px;
+    width: 512px;
+    position: absolute;
+    bottom: 0;
+  }
+  .about-card {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 740px) {
+  .about-card {
+    width: 90%;
+  }
+  .justin-pic {
+    display: flex;
+    height: 512px;
+    width: 512px;
+    position: absolute;
+    bottom: 0;
+  }
+  .nav h1 {
+    display: none;
+  }
 }

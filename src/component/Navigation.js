@@ -17,9 +17,26 @@ function Nav() {
               About
             </Link>
           </li>
-          <li>Projects</li>
-          <li>Contact Me</li>
-          <li>Github</li>
+          <li>
+            <Link className="link-text" to="/projects">
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link className="link-text" to="/contact">
+              Contact Me
+            </Link>
+          </li>
+          <li>
+            <a
+              href="https://github.com/noellerjd"
+              className="link-text"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          </li>
         </ul>
       </div>
     </div>
