@@ -160,6 +160,43 @@ body {
 .project-card img:hover {
   box-shadow: 0px 0px 0px 5px var(--dark);
 }
+/* Contact */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10%;
+}
+.contact-field {
+  background-color: var(--white);
+  margin: 30px;
+  color: var(--black);
+  padding: 15px;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 25px;
+}
+.contact-link {
+  background-color: var(--white);
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  color: var(--dark);
+}
+.contact-link:hover {
+  color: var(--black);
+  background-color: var(--orange);
+}
+.email-card {
+  animation: fadeIn 2s;
+}
+.linkedIn {
+  animation: fadeIn 3s;
+}
 /* fade in */
 @keyframes fadeIn {
   0% {
@@ -241,5 +278,11 @@ body {
   }
   .links li {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 361px) {
+  .contact-field {
+    margin: 25px;
+    padding: 15px;
   }
 }
