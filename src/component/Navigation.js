@@ -8,7 +8,7 @@ function Nav() {
       <div>
         <ul className="links">
           <li>
-            <Link className="link-text" to="/">
+            <Link className="link-text" to="/React-Portfolio">
               Home
             </Link>
           </li>
