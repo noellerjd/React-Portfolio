@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.646f1e46.css",
-    "main.js": "/React-Portfolio/static/js/main.74b5757e.js",
-    "static/media/me.png": "/React-Portfolio/static/media/me.8b748d2628465442294c.png",
-    "static/media/React-Portfolio.PNG": "/React-Portfolio/static/media/React-Portfolio.78957bf170f7e86941bf.PNG",
-    "static/media/river-g366ef4536_1920.jpg": "/React-Portfolio/static/media/river-g366ef4536_1920.aea9107351c59df43d53.jpg",
-    "static/media/social-media-backend.PNG": "/React-Portfolio/static/media/social-media-backend.27fff12725a9ee7a8a66.PNG",
-    "static/media/SQLtracker.PNG": "/React-Portfolio/static/media/SQLtracker.eb16dffbb083b9b4202d.PNG",
-    "static/media/portfoliov1.PNG": "/React-Portfolio/static/media/portfoliov1.31f696fdfe8707e7f491.PNG",
-    "static/media/ECommerce.png": "/React-Portfolio/static/media/ECommerce.aa9f03acac51e14e4357.png",
-    "static/media/weather-dash.PNG": "/React-Portfolio/static/media/weather-dash.f84f93ed4df03a1699be.PNG",
-    "static/media/password-generator.PNG": "/React-Portfolio/static/media/password-generator.6d45dc70698aae552818.PNG",
-    "index.html": "/React-Portfolio/index.html",
-    "main.646f1e46.css.map": "/React-Portfolio/static/css/main.646f1e46.css.map",
-    "main.74b5757e.js.map": "/React-Portfolio/static/js/main.74b5757e.js.map"
+    "main.css": "/static/css/main.02ef9e55.css",
+    "main.js": "/static/js/main.869d2e93.js",
+    "static/media/me.png": "/static/media/me.8b748d2628465442294c.png",
+    "static/media/React-Portfolio.PNG": "/static/media/React-Portfolio.78957bf170f7e86941bf.PNG",
+    "static/media/river-g366ef4536_1920.jpg": "/static/media/river-g366ef4536_1920.aea9107351c59df43d53.jpg",
+    "static/media/social-media-backend.PNG": "/static/media/social-media-backend.27fff12725a9ee7a8a66.PNG",
+    "static/media/SQLtracker.PNG": "/static/media/SQLtracker.eb16dffbb083b9b4202d.PNG",
+    "static/media/portfoliov1.PNG": "/static/media/portfoliov1.31f696fdfe8707e7f491.PNG",
+    "static/media/ECommerce.png": "/static/media/ECommerce.aa9f03acac51e14e4357.png",
+    "static/media/weather-dash.PNG": "/static/media/weather-dash.f84f93ed4df03a1699be.PNG",
+    "static/media/password-generator.PNG": "/static/media/password-generator.6d45dc70698aae552818.PNG",
+    "index.html": "/index.html",
+    "main.02ef9e55.css.map": "/static/css/main.02ef9e55.css.map",
+    "main.869d2e93.js.map": "/static/js/main.869d2e93.js.map"
   },
   "entrypoints": [
-    "static/css/main.646f1e46.css",
-    "static/js/main.74b5757e.js"
+    "static/css/main.02ef9e55.css",
+    "static/js/main.869d2e93.js"
   ]
 }
