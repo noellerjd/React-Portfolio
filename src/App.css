@@ -43,7 +43,7 @@ body {
 }
 .links li {
   font-family: "Dosis", sans-serif;
-  font-size: 1.4rem;
+  font-size: 25px;
   font-weight: bold;
   margin: 4px;
   padding: 4px;
@@ -62,13 +62,14 @@ body {
 /* Home */
 .justin-pic {
   display: flex;
-  height: 786px;
-  width: 786px;
+  height: 686px;
+  width: 686px;
   position: absolute;
   bottom: 0;
   justify-content: center;
   align-items: center;
   right: 0;
+  z-index: 0;
 }
 .home-container {
   display: block;
@@ -284,5 +285,19 @@ body {
   .contact-field {
     margin: 25px;
     padding: 15px;
+  }
+}
+@media screen and (max-height: 1000px) {
+  .justin-pic {
+    display: flex;
+    height: 512px;
+    width: 512px;
+  }
+}
+@media screen and (max-height: 700px) {
+  .justin-pic {
+    display: flex;
+    height: 412px;
+    width: 412px;
   }
 }
