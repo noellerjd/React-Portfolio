@@ -151,6 +151,7 @@ body {
 .project-card img {
   height: 400px;
   width: 450px;
+  object-fit: cover;
   transition: all ease 0.3s;
   border-radius: 5px;
   cursor: pointer;
@@ -198,6 +199,27 @@ body {
 .linkedIn {
   animation: fadeIn 3s;
 }
+/* footer */
+.footer {
+  display: flex;
+  background-color: var(--dark);
+  position: fixed;
+  align-items: center;
+  bottom: 0;
+  width: max-content;
+}
+.footer-text {
+  text-align: center;
+  color: var(--white);
+  width: 100vw;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.footer-text a {
+  text-decoration: none;
+  color: var(--orange);
+}
+
 /* fade in */
 @keyframes fadeIn {
   0% {

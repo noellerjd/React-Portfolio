@@ -16,6 +16,16 @@ import socialMedia from "../assets/social-media-backend.PNG";
 
 const projectList = [
   {
+    title: "ChatDat",
+    link: "https://github.com/noellerjd/Chatdat",
+    img: "https://github.com/noellerjd/Chatdat/raw/main/client/src/components/images/chatDat.png",
+  },
+  {
+    title: "PWA-Text-Editor",
+    link: "https://github.com/noellerjd/PWA-Text-Editor",
+    img: "https://user-images.githubusercontent.com/50307506/196010407-1a80d192-9239-475f-9442-71ed632a998a.png",
+  },
+  {
     title: "React-Portfolio",
     link: "https://github.com/noellerjd/React-Portfolio",
     img: portfolioV2,
