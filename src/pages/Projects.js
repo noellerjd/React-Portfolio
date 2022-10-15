@@ -8,12 +8,6 @@ import passgen from "../assets/password-generator.PNG";
 import weatherDash from "../assets/weather-dash.PNG";
 import socialMedia from "../assets/social-media-backend.PNG";
 
-// const projectOne = {
-//   title: "Test",
-//   link: "React-Portfolio",
-//   img: "https://via.placeholder.com/500",
-// };
-
 const projectList = [
   {
     title: "ChatDat",
