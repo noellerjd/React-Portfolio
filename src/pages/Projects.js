@@ -16,6 +16,11 @@ import socialMedia from "../assets/social-media-backend.PNG";
 
 const projectList = [
   {
+    title: "PaybackPlan",
+    link: "https://github.com/noellerjd/Payback-Plan",
+    img: "https://user-images.githubusercontent.com/50307506/197901594-4446143f-4546-46c9-a46e-87232aa11da6.png"
+  },
+  {
     title: "ChatDat",
     link: "https://github.com/noellerjd/Chatdat",
     img: "https://github.com/noellerjd/Chatdat/raw/main/client/src/components/images/chatDat.png",
